@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.app_form
+{
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+}
+
+.app_formControl
+{
+  display: flex !important;
+  flex-direction: row !important;
+}
+/*!important 是強制鎖定型別*/
+
+.app_input
+{
+  width: 90%;
+}
+
+.app_iconButton
+{
+  width: 10%;
+}
